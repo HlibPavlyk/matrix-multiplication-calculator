@@ -29,7 +29,7 @@ If the project is hosted on GitHub, clone it using:
 
 ```bash
 git clone https://github.com/HlibPavlyk/matrix-multiplication-calculator.git
-cd matrix-multiplication-calculator
+cd matrix-multiplication-calculator/src
 ```
 
 Alternatively, you can download the source code files directly.
