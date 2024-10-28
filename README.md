@@ -1,6 +1,34 @@
-# Matrix Multiplication Calculator
+# Matrix Multiplication Calculator (Lab 1 Java Software Development)
 
 This project performs operations on matrices, including multiplication and calculating the sum of the smallest elements in each row of the resulting matrix. Users can input matrices manually or generate them randomly with specified dimensions.
+
+## Assignment
+
+Define **C5** as the remainder of dividing the student's record book number 13879064 by 5, **C7** as the remainder of dividing the student's record book number 13879064 by 7, and **C11** as the remainder of dividing the student's record book number 13879064 by 11.
+
+Based on **C5**, determine the action performed with the matrix/matrices:
+
+| C5  | Action with Matrices                              |
+|-----|---------------------------------------------------|
+| 4   | C = A * B, where * denotes matrix multiplication |
+
+Based on **C7**, determine the type of matrix elements:
+
+| C7  | Type of Matrix Elements |
+|-----|-------------------------|
+| 3   | `int`                   |
+
+Based on **C11**, determine the action with matrix C:
+
+| C11 | Action with Matrix C                                  |
+|-----|-------------------------------------------------------|
+| 1   | Compute the sum of the smallest elements of each row of matrix C |
+
+**Variant:**
+
+- **C5 = 4**: Perform matrix multiplication \( C = A \times B \).
+- **C7 = 3**: Matrices contain elements of type `int`.
+- **C11 = 1**: Compute the sum of the smallest elements of each row of matrix C.
 
 ## Features
 
@@ -15,11 +43,6 @@ This project performs operations on matrices, including multiplication and calcu
 
 - **Java Development Kit (JDK) 8** or higher installed on your system.
 - **Git** (optional, for cloning the repository).
-
-## Project Structure
-
-- `Main.java`: The main class containing the `main` method to run the program.
-- `MatrixUtils.java`: A utility class with methods for matrix operations like input, generation, multiplication, printing, and calculations.
 
 ## How to Run
 
@@ -105,24 +128,6 @@ Matrix C (Result of A * B):
     -12     0    20
 Sum of the smallest elements of each row in Matrix C: -60
 ```
-
-## Exception Handling
-
-The program includes error handling for:
-
-- **Invalid Input**: Non-integer inputs and invalid choices.
-- **Incompatible Matrices**: Matrices whose dimensions do not satisfy the multiplication condition.
-- **Null Values**: Checks for `null` matrices to prevent `NullPointerException`.
-- **Irregular Matrices**: Ensures all rows have the same number of columns.
-
-If an error occurs, a descriptive message is displayed, and the program terminates gracefully.
-
-## Code Conventions
-
-- **Naming Conventions**: Classes, methods, and variables are named following standard Java practices.
-- **Formatting**: Consistent use of indentation, braces placement, and spacing.
-- **Comments**: Important sections of the code are documented for clarity.
-- **Constants**: Use of `final` for constant values like minimum and maximum random values.
 
 ## License
 
